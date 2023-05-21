@@ -3,24 +3,41 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display:flex;
     flex-direction: column;
-
+    text-align:center;
     min-height:100vh;
 }
 
 .header{
-    background-color:#CC5500;
-    padding:20px;
-    height:auto;
+    background-color:#234F1E;
+    color:#FDA172;
+    padding:0 200px;
+    padding-bottom:60px;
+}
+
+.logo{
+    font-size:24px;
+}
+
+.title{
+    font-size: 48px;
+    font-weight:bold;
 }
 
 .firstline{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom:64px;
 }
 
 .secondline{
     display:flex;
+    text-align: start;
+}
+
+.quote{
+    font-size:36px;
+    font-style:italic;
 }
 
 ul{
@@ -31,6 +48,7 @@ ul{
 
 a{
     text-decoration: none;
+    color:#FDA172;
 }
 
 .footer{
@@ -51,6 +69,7 @@ a{
 .bodytext{
     text-align: center;
     font-size: 30px;
+    margin: 16px;
 }
 
 .boxtext{
@@ -63,9 +82,14 @@ a{
     justify-content: space-evenly;
 }
 
+.firstpart{
+    margin-bottom:16px;
+    padding:64px 200px;
+}
 .secondpart{
     background-color:#B2D3C2;
     height:200px;
+    padding:64px 200px;
     
     
 }
@@ -74,6 +98,9 @@ a{
     display: flex;
     flex:1;
     height:100%;
+    padding:20px;
+    justify-content:center;
+    
 }
 
 .middle{
@@ -84,13 +111,39 @@ a{
 }
 
 .placeholder{
-    height:200px;
-    width:500px;
-    border:2px solid black;
+    background-color:rgb(193, 193, 193);
+    text-align: center;
+    flex:1;
+}
+
+.firstleft{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    height:240px;
+    gap:16px;
 }
 
 .bigbox{
     background-color:#e09d6c;
     
+}
+
+button{
+    width:160px;
+    size:16px;
+    border:none;
+    outline:none;
+    padding: 15px 32px;
+    font-size:16px;
+    margin-top:8px;
+    border-radius:8px;
+    background-color: #83ad7e;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
